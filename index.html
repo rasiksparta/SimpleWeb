@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome to my simple website</title>
+    <link rel="stylesheet" href="style/style.css"/>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div id="main_container">
+        <div id="header">
+            <ul id="navigation">
+                <li id="side_menu_icon"><img src="sources/menuicon.png" onclick=menuControl()></li>
+                <li><a href=""><img src="sources/logo.png"></a></li>
+                <li>Home</li>
+                <li>Trending</li>
+                <li>Subscription</li>
+                <li>Library</li>
+                <li>History</li>
+            </ul>
+        </div>
+
+        <div id="side_menu">
+            <ul>
+                <li>Home</li>
+                <li>Trending</li>
+                <li>Subscription</li>
+                <hr />
+                <li>Library</li>
+                <li>History</li>
+            </ul>
+        </div>
+
+        <div id="body">
+            <div>
+                <p> Welcome to NewTube </p>
+            </div>
+            <div id="recommended">
+                <table id="content_table">
+                    <th> Recommended </th>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/LICsZp6Jyl8"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/zmg7bcC-kJk"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/mMUTYSAjFF0"></iframe></td>
+                    </tr>
+                </table>
+                <hr />
+            </div>
+            <div id="recent_uploads">
+                <table id="content_table">
+                    <th> Recent Uploads </th>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/LICsZp6Jyl8"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/zmg7bcC-kJk"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/mMUTYSAjFF0"></iframe></td>
+                    </tr>
+                </table>
+                <hr />
+            </div>
+            <div id="Images">
+                <table id="content_table">
+                    <th> Images </th>
+                    <tr>
+                        <td><img src="sources/img1.jpg"></td>
+                        <td><img src="sources/img2.jpg"></td>
+                        <td><img src="sources/img3.png"></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>     
+        <div id="footer"></div>
+    </div>    
+</body>
+</html>
