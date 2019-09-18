@@ -11,3 +11,8 @@ function menuControl() {
     document.getElementById("side_menu").style.display = "none";
     document.getElementById("body").style.width = "100%";
 }
+
+function displayDate() {
+    var date = document.createElement("P");
+    date.innerHTML = "NOW";
+}
